@@ -12,7 +12,7 @@ int partition (vector<int> &arr, int st, int end) {
             i++;
         } 
     }
-    swap(arr[i], pivot);
+    swap(arr[i], arr[end]);
     return i;
 }
 
